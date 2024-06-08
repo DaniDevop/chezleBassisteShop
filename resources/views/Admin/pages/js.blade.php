@@ -4,9 +4,9 @@
     <script src="/assets/lib/easing/easing.min.js"></script>
     <script src="/assets/lib/waypoints/waypoints.min.js"></script>
     <script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="/assets/lib/tempusdominus//assets/js/moment.min.js"></script>
-    <script src="/assets/lib/tempusdominus//assets/js/moment-timezone.min.js"></script>
-    <script src="/assets/lib/tempusdominus//assets/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="/assets/lib/tempusdominus/assets/js/moment.min.js"></script>
+    <script src="/assets/lib/tempusdominus/assets/js/moment-timezone.min.js"></script>
+    <script src="/assets/lib/tempusdominus/assets/js/tempusdominus-bootstrap-4.min.js"></script>
 
     <!-- Template Javascript -->
     <script src="/assets/js/main.js"></script>

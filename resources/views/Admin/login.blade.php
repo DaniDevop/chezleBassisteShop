@@ -23,7 +23,7 @@
                                 <h3 class="text-primary"><i class="fa fa-hashtag me-2"></i>ADMINISTRATION</h3>
                             </a>
                         </div>
-                       <form action="" method="POST">
+                       <form action="{{route('doLogin.admin')}}" method="POST">
                         @csrf
                        <div class="form-floating mb-3">
                             <input type="email" class="form-control" name="email" id="floatingInput" placeholder="name@example.com" require>

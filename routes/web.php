@@ -19,3 +19,8 @@ Route::get('/', function () {
 });
 
 Route::get('/login',[AdminController::class,'login'])->name('login.admin');
+Route::get('/',[AdminController::class,'home'])->name('home.admin');
+Route::post('/doLogin',[AdminController::class,'doLogin'])->name('doLogin.admin');
+
+Route::get('/register',[AdminController::class,'register'])->name('register.admin');
+Route::post('/registerAdmin',[AdminController::class,'registerAdmin'])->name('register.admin.informations');
