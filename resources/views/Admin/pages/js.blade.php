@@ -10,3 +10,5 @@
 
     <!-- Template Javascript -->
     <script src="/assets/js/main.js"></script>
+
+    @livewireScripts

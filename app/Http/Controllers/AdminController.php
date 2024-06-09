@@ -26,7 +26,7 @@ class AdminController extends Controller
 
     public function registerAdmin(Request $request){
         $validate=$request->validate([
-        'email'=>'required|unique:users,email',
+        'email'=>'required|email|unique:users,email',
         'name'=>'required',
         'password'=>'required',
         'password_confirm'=>'required',
